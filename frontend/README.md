@@ -1,13 +1,13 @@
 # Live Demo
 
 Frontend:
-https://YOUR-VERCEL-URL
+https://breathe-esg-prototype-kappa.vercel.app/
 
 Backend API:
-https://YOUR-RENDER-URL/api/records/
+https://breathe-esg-prototype-u1yw.onrender.com/api/records/
 
 GitHub Repository:
-https://github.com/YOUR-USERNAME/breathe-esg-prototype
+https://github.com/Deepak-ai369/breathe-esg-prototype
 
 
 # React + Vite
