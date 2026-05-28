@@ -1,0 +1,5 @@
+source_type,activity_type,quantity,unit,scope
+SAP,Diesel Fuel,500,L,Scope 1
+UTILITY,Electricity,1200,kWh,Scope 2
+TRAVEL,Flight Travel,800,km,Scope 3
+SAP,Diesel Fuel,20000,L,Scope 1
