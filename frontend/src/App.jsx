@@ -7,7 +7,7 @@ function App() {
 
   const fetchRecords = () => {
 
-    fetch("http://127.0.0.1:8000/api/records/")
+    fetch("https://breathe-esg-prototype-u1yw.onrender.com/api/records/")
       .then(response => response.json())
       .then(data => {
         setRecords(data)
@@ -22,7 +22,7 @@ function App() {
 
   const approveRecord = (id) => {
 
-    fetch(`http://127.0.0.1:8000/api/approve/${id}/`, {
+    fetch(`https://breathe-esg-prototype-u1yw.onrender.com/api/approve/${id}/`, {
       method: 'POST'
     })
       .then(response => response.json())
@@ -43,7 +43,7 @@ function App() {
 
     formData.append('file', selectedFile)
 
-    fetch("http://127.0.0.1:8000/api/upload-csv/", {
+    fetch("https://breathe-esg-prototype-u1yw.onrender.com/api/upload-csv/", {
       method: 'POST',
       body: formData
     })
