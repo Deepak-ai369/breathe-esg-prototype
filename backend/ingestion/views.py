@@ -66,7 +66,9 @@ def upload_csv(request):
 
     reader = csv.DictReader(decoded_file)
 
-    tenant = Tenant.objects.first()
+    tenant, created = Tenant.objects.get_or_create(
+    name="Default Organization"
+    )
 
     for row in reader:
 
