@@ -1,3 +1,15 @@
+# Live Demo
+
+Frontend:
+https://YOUR-VERCEL-URL
+
+Backend API:
+https://YOUR-RENDER-URL/api/records/
+
+GitHub Repository:
+https://github.com/YOUR-USERNAME/breathe-esg-prototype
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
